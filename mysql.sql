@@ -260,8 +260,9 @@ AND  salary <> (
     )
 );
 
-
-
+SELECT * 
+FROM emp_info 
+WHERE salary > (SELECT AVG(salary) FROM emp_info);
 
 
 
