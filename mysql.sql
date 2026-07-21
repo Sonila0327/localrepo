@@ -263,10 +263,13 @@ AND  salary <> (
 SELECT * 
 FROM emp_info 
 WHERE salary > (SELECT AVG(salary) FROM emp_info);
+<<<<<<< HEAD
 
 SELECT * 
 FROM emp_info 
 WHERE salary > 70000
+=======
+>>>>>>> d04339f2f0fed5a1bb75c5e77aac2ac014ed9c30
 
 
 
